@@ -6,7 +6,7 @@ My work sits at the intersection of agent runtime behavior, CLI ergonomics, oper
 
 ## Main work
 
-- Merged contribution to [`NousResearch/hermes-agent` PR #5615](https://github.com/NousResearch/hermes-agent/pull/5615#event-24239741113)
+- Active work branch for [`MadKangYu/hermes-agent`](https://github.com/MadKangYu/hermes-agent/tree/codex/telegram-fallback-log-level)
 
 ## What I work on
 
