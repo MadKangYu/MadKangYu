@@ -21,12 +21,11 @@ My work sits at the intersection of agent runtime behavior, CLI ergonomics, oper
 ### Contributed to `NousResearch/hermes-agent`
 
 - Merged upstream PR: [#5615](https://github.com/NousResearch/hermes-agent/pull/5615) — `Reduce Telegram fallback IP activation log noise`
-- Follow-on work across CLI, docs, runtime behavior, and CI recovery
-- Worked on:
-  - `hermes update --check`
-  - update banner runtime correctness
-  - gateway restart guidance cleanup
-  - claw cleanup documentation
+- Follow-on work across CLI, docs, runtime behavior, and CI recovery:
+  - [#7303](https://github.com/NousResearch/hermes-agent/pull/7303) — `fix(cli): prefer active checkout for update banner`
+  - [#7299](https://github.com/NousResearch/hermes-agent/pull/7299) — `fix(cli): add update check mode`
+  - [#7284](https://github.com/NousResearch/hermes-agent/pull/7284) — `docs(skills): align gateway and cleanup guidance`
+  - [#7280](https://github.com/NousResearch/hermes-agent/pull/7280) — `docs(cli): document claw cleanup workflow`
   - baseline CI fix propagation across active PR branches
 
 ### Agent operations and workflow hardening
