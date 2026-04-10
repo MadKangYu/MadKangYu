@@ -6,7 +6,7 @@ My work is centered on agent runtime behavior, CLI ergonomics, CI recovery, and 
 
 ## Main work
 
-- `hermes-agent`: [active branch](https://github.com/MadKangYu/hermes-agent/tree/codex/telegram-fallback-log-level) and [merged upstream PR #5615](https://github.com/NousResearch/hermes-agent/pull/5615)
+- `hermes-agent`: [active branch](https://github.com/MadKangYu/hermes-agent/tree/codex/telegram-fallback-log-level) for lowering Telegram fallback activation log noise, plus [merged upstream PR #5615](https://github.com/NousResearch/hermes-agent/pull/5615)
 - Recent improvements in `hermes-agent`: [#7303](https://github.com/NousResearch/hermes-agent/pull/7303), [#7299](https://github.com/NousResearch/hermes-agent/pull/7299), [#7284](https://github.com/NousResearch/hermes-agent/pull/7284), [#7280](https://github.com/NousResearch/hermes-agent/pull/7280)
 - CI recovery work: propagated baseline fixes across active PR branches and re-verified them with targeted test runs
 
