@@ -4,6 +4,10 @@ I build AI agent workflows, automation systems, and developer tooling.
 
 My work sits at the intersection of agent runtime behavior, CLI ergonomics, operational reliability, and knowledge systems. I prefer practical systems that are fast to use, easy to verify, and hard to drift out of sync.
 
+## Main work
+
+- Open source contributions to [`NousResearch/hermes-agent`](https://github.com/NousResearch/hermes-agent)
+
 ## What I work on
 
 - AI agent runtime and CLI workflow design
