@@ -1,10 +1,10 @@
 # KangYu
 
-I improve agent runtime behavior, CLI update flows, and CI reliability.
+I build and harden AI agent systems.
 
-My work is centered on making real systems quieter, clearer, and easier to verify.
+My work is centered on runtime behavior, operator tooling, CI reliability, and verification-first execution.
 
-## Main work
+## Shipped improvements
 
 - Reduced Telegram fallback activation log noise in [`hermes-agent`](https://github.com/MadKangYu/hermes-agent/tree/codex/telegram-fallback-log-level) and landed the upstream change in [PR #5615](https://github.com/NousResearch/hermes-agent/pull/5615)
 - Improved CLI update behavior with [#7303](https://github.com/NousResearch/hermes-agent/pull/7303) and [#7299](https://github.com/NousResearch/hermes-agent/pull/7299)
@@ -13,9 +13,9 @@ My work is centered on making real systems quieter, clearer, and easier to verif
 
 ## Focus
 
-- AI agent runtime and CLI workflow design
-- Operator tooling for Hermes and OpenClaw based setups
-- GitHub and GitLab contribution loops
+- AI agent runtime behavior
+- CLI and operator tooling
+- CI reliability and release hygiene
 - Knowledge systems built around Obsidian
 
 ## Selected public repos
@@ -31,6 +31,7 @@ My work is centered on making real systems quieter, clearer, and easier to verif
 - CLI-first
 - docs/runtime parity over surface-level polish
 - fix root causes instead of repeated symptoms
+- build tools operators can actually trust
 
 ## Stack
 
