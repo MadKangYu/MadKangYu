@@ -1,8 +1,8 @@
 # KangYu
 
-I build and harden AI agent systems.
+I improve agent runtime behavior, CLI update flows, and CI reliability.
 
-I work on runtime behavior, operator tooling, CI reliability, and verification-first execution.
+Current work is concentrated in Hermes, operator tooling, and verification-first execution.
 
 ## Proof of work
 
