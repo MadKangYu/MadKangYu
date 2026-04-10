@@ -6,7 +6,7 @@ Current work is concentrated in Hermes, operator tooling, and verification-first
 
 ## Proof of work
 
-- Reduced Telegram fallback activation log noise in [`hermes-agent`](https://github.com/MadKangYu/hermes-agent/tree/codex/telegram-fallback-log-level) and landed the upstream change in [PR #5615](https://github.com/NousResearch/hermes-agent/pull/5615)
+- Reduced Telegram fallback activation log noise in [`NousResearch/hermes-agent`](https://github.com/NousResearch/hermes-agent/pull/5615) and landed the upstream change in [PR #5615](https://github.com/NousResearch/hermes-agent/pull/5615)
 - Improved CLI update behavior with [#7303](https://github.com/NousResearch/hermes-agent/pull/7303) and [#7299](https://github.com/NousResearch/hermes-agent/pull/7299)
 - Tightened docs and runtime alignment with [#7284](https://github.com/NousResearch/hermes-agent/pull/7284) and [#7280](https://github.com/NousResearch/hermes-agent/pull/7280)
 - Recovered failing CI by propagating baseline fixes across active PR branches and re-verifying them with targeted test runs
