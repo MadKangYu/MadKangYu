@@ -1,80 +1,38 @@
 # KangYu
 
-I build AI agent workflows, automation systems, and developer tooling.
+I build AI agent workflows, operator tooling, and verification-first automation.
 
-My work sits at the intersection of agent runtime behavior, CLI ergonomics, operational reliability, and knowledge systems. I prefer practical systems that are fast to use, easy to verify, and hard to drift out of sync.
+My work is centered on agent runtime behavior, CLI ergonomics, CI recovery, and knowledge systems that keep runtime, docs, and real execution aligned.
 
 ## Main work
 
-- Active work branch for [`MadKangYu/hermes-agent`](https://github.com/MadKangYu/hermes-agent/tree/codex/telegram-fallback-log-level)
+- `hermes-agent`: [active branch](https://github.com/MadKangYu/hermes-agent/tree/codex/telegram-fallback-log-level) and [merged upstream PR #5615](https://github.com/NousResearch/hermes-agent/pull/5615)
+- Recent improvements in `hermes-agent`: [#7303](https://github.com/NousResearch/hermes-agent/pull/7303), [#7299](https://github.com/NousResearch/hermes-agent/pull/7299), [#7284](https://github.com/NousResearch/hermes-agent/pull/7284), [#7280](https://github.com/NousResearch/hermes-agent/pull/7280)
+- CI recovery work: propagated baseline fixes across active PR branches and re-verified them with targeted test runs
 
 ## What I work on
 
 - AI agent runtime and CLI workflow design
-- GitHub and GitLab contribution and automation loops
-- Operations for Hermes and OpenClaw based agent setups
+- GitHub and GitLab contribution loops
+- Operational tooling for Hermes and OpenClaw based setups
 - Obsidian based knowledge capture for AI assisted work
-- Documentation, runtime, and behavior consistency across real systems
+- Documentation, runtime, and behavior consistency
 
-## Selected work
+## Selected public repos
 
-### Contributed to `NousResearch/hermes-agent`
-
-- Merged upstream PR: [#5615](https://github.com/NousResearch/hermes-agent/pull/5615) — `Reduce Telegram fallback IP activation log noise`
-- Follow-on work across CLI, docs, runtime behavior, and CI recovery:
-  - [#7303](https://github.com/NousResearch/hermes-agent/pull/7303) — `fix(cli): prefer active checkout for update banner`
-  - [#7299](https://github.com/NousResearch/hermes-agent/pull/7299) — `fix(cli): add update check mode`
-  - [#7284](https://github.com/NousResearch/hermes-agent/pull/7284) — `docs(skills): align gateway and cleanup guidance`
-  - [#7280](https://github.com/NousResearch/hermes-agent/pull/7280) — `docs(cli): document claw cleanup workflow`
-  - baseline CI fix propagation across active PR branches
-
-### Agent operations and workflow hardening
-
-- Separated live runtime checkouts from contributor worktrees to reduce false update states and operational drift
-- Debugged and recovered split-brain style issues between Hermes and legacy OpenClaw control paths
-- Verified agent changes through targeted pytest suites instead of relying on assumptions
-
-### Knowledge systems
-
-- Built an Obsidian workflow for `Clippings -> Wiki -> Notes/Projects`
-- Structured AI research capture around canonical notes, source logs, and operational retrospectives
-- Focused on turning raw investigation into reusable working knowledge
+- [`tiered-scraper`](https://github.com/MadKangYu/tiered-scraper) - multi-stage web scraping with AI-assisted CAPTCHA solving
+- [`ai-agent-landscape`](https://github.com/MadKangYu/ai-agent-landscape) - curated reference of major AI agent platforms and tools
+- [`prompt-caching-slides`](https://github.com/MadKangYu/prompt-caching-slides) - presentation on prompt caching and Claude Code
+- [`MadKangYu-FigMa-Mcp`](https://github.com/MadKangYu/MadKangYu-FigMa-Mcp) - Figma MCP guide and workflow reference
 
 ## How I work
 
+- verification-first
 - CLI-first
-- verification-driven
 - docs/runtime parity over surface-level polish
-- fast iteration, but only with traceable evidence
-- local automation over repetitive manual flow
+- fix root causes instead of repeated symptoms
+- turn investigation into reusable knowledge
 
-## Current focus
+## Stack
 
-- AI agent product operations
-- developer tooling and workflow automation
-- repository contribution loops
-- knowledge systems for real work
-
-## Principles
-
-- Prefer source of truth over hearsay
-- Fix shared root causes, not repeated symptoms
-- Keep runtime, docs, and user-facing behavior aligned
-- Treat operations and contribution quality as engineering work
-
-## Tech and tools
-
-`Python` `TypeScript` `GitHub Actions` `GitHub CLI` `GitLab CLI` `Hermes` `OpenClaw` `Obsidian` `CLI automation`
-
-## Suggested GitHub bio
-
-`Building AI agent workflows, automation systems, and developer tooling`
-
-## Suggested pinned repo direction
-
-- 1 repo for your best agent or automation project
-- 1 repo for developer tooling or CLI work
-- 1 repo for knowledge system or Obsidian workflow
-- 1 repo for experiments with practical outputs
-- 1 repo showing product or ops execution
-- 1 repo that is clean, documented, and easy to understand quickly
+`Python` `TypeScript` `GitHub Actions` `GitHub CLI` `GitLab CLI` `Hermes` `OpenClaw` `Obsidian`
