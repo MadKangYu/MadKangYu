@@ -1,8 +1,14 @@
+<p align="center">
+  <img src="./assets/gpt-second-mind-human-gate.png" alt="GPT expands possibilities while human judgment verifies the action path" width="720">
+</p>
+
 # KangYu · MadKangYu
 
-I improve agent runtime behavior, CLI update flows, and CI reliability.
+**Turning noise into verified action.**
 
-Current work is concentrated in Hermes, operator tooling, and verification-first execution.
+I build verification-first workflows where AI amplifies human judgment.
+
+Current work is concentrated in AI agent runtime behavior, operator tooling, CLI update flows, and CI reliability.
 
 ## Proof of work
 
@@ -17,6 +23,15 @@ Current work is concentrated in Hermes, operator tooling, and verification-first
 - CLI and operator tooling
 - CI reliability and release hygiene
 - Knowledge systems built around Obsidian
+
+## Operating philosophy
+
+<img src="./assets/verified-decision-engine.png" alt="Noise becomes evidence, evidence becomes action" width="140" align="right">
+
+- Memory fades; evidence remains.
+- Automation is useful only when it is observable, recoverable, and accountable.
+- AI should expand possibilities, while humans own the final verification gate.
+- The goal is not speed by itself; the goal is verified forward motion.
 
 ## Public work
 
