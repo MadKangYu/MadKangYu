@@ -1,4 +1,4 @@
-# KangYu
+# KangYu · MadKangYu
 
 I improve agent runtime behavior, CLI update flows, and CI reliability.
 
@@ -26,3 +26,8 @@ Current work is concentrated in Hermes, operator tooling, and verification-first
 - [`MadKangYu-FigMa-Mcp`](https://github.com/MadKangYu/MadKangYu-FigMa-Mcp) - Figma MCP guide and workflow reference
 
 `Python` `TypeScript` `GitHub Actions` `GitHub CLI` `GitLab CLI` `Hermes` `OpenClaw` `Obsidian`
+
+## Contact
+
+- GitHub: [@MadKangYu](https://github.com/MadKangYu)
+- Email: [richardowen7212@gmail.com](mailto:richardowen7212@gmail.com)
