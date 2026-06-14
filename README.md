@@ -33,6 +33,18 @@ I work on agent runtime behavior, operator tooling, CLI update flows, and CI rel
 - AI should expand possibilities, while humans own the final verification gate.
 - The goal is not speed by itself; the goal is verified forward motion.
 
+## Operating model
+
+I treat useful automation as a gated decision system:
+
+```text
+field values -> gate checks -> next action
+```
+
+- **Fields** capture the minimum structured evidence needed to judge a situation: source, observed value, confidence, freshness, authority, action boundary, privacy boundary, verification method, and blocker.
+- **Gates** decide whether the next step is allowed: source, permission, parsing, privacy, local proof, runtime availability, external action, and verification.
+- **Actions** are only promoted when the gate state supports them. Listed is not usable. Connected is not writable. Installed is not post-ready.
+
 ## Public work
 
 - [`tiered-scraper`](https://github.com/MadKangYu/tiered-scraper) - turns fragile scraping into a staged, inspectable workflow with AI-assisted CAPTCHA handling.
